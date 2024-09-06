@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Ravinder",
+    "position": "Data Analyst",
+    "salary": 789456,
+    "address": "Narnaul"
+  },
+  {
+    "id": "2",
+    "name": "Manish",
+    "position": "MInning ENgineer",
+    "salary": 89654,
+    "address": "Mumbai"
+  },
+  {
+    "id": "15",
+    "name": "Prince",
+    "position": "Software Engineer",
+    "salary": 456789,
+    "address": "Bihar"
+  },
+  {
+    "id": "383",
+    "name": "NEEL ",
+    "position": "programmer",
+    "salary": 654987,
+    "address": "pubjab"
+  },
+  {
+    "id": "30",
+    "name": "muskan",
+    "position": "data Scientist",
+    "salary": 789654,
+    "address": "karnal"
+  }
+]

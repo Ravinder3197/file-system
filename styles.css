@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Changed font-family */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Added background color */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px; /* Added margin-top */
+    color: #333; /* Changed color */
+}
+
+#employeeForm {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff; /* Added background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
+    border-radius: 8px; /* Added border radius */
+}
+
+#employeeForm input {
+    padding: 12px; /* Increased padding */
+    font-size: 16px;
+    border: 1px solid #ccc; /* Added border */
+    border-radius: 4px; /* Added border radius */
+}
+
+#employeeForm button {
+    padding: 12px 24px; /* Increased padding */
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF; /* Changed background color */
+    color: white;
+    border: none; /* Removed border */
+    border-radius: 4px; /* Added border radius */
+    transition: background-color 0.3s; /* Added transition */
+}
+
+#employeeForm button:hover {
+    background-color: navajowhite; /* Added hover effect */
+}
+
+#employeeList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px; /* Added padding */
+}
+
+.employee {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /* Changed width */
+    padding: 15px; /* Increased padding */
+    border: 1px solid skyblue;
+    border-radius: 8px; /* Added border radius */
+    background-color: #fff; /* Added background color */
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.employee button {
+    cursor: pointer;
+    background-color: greenyellow; /* Changed background color */
+    color: white;
+    border: none; /* Removed border */
+    border-radius: 8px;
+    padding: 6px 10px; /* Adjusted padding */
+    transition: background-color 0.3s; /* Added transition */
+}
+
+.employee button:hover {
+    background-color: greenyellow; /* Added hover effect */
+}
